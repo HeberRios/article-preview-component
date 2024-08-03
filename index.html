@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="./assets/css/style.css" />
 
+        <script defer src="./assets/js/main.js"></script>
+
         <title>Frontend Mentor | Article preview component</title>
     </head>
     <body>
@@ -39,7 +41,7 @@
                 </section>
 
                 <footer class="article-author-container">
-                    <div class="author-info-container">
+                    <div id="author-info" class="author-info-container">
                         <img
                             src="./assets/images/avatar-michelle.jpg"
                             alt="Michelle looking straight ahead"
@@ -53,7 +55,45 @@
                         </div>
                     </div>
 
-                    <button class="share-btn">
+                    <div
+                        id="social-media"
+                        class="social-media-container hidden"
+                    >
+                        <p>share</p>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/icon-facebook.svg"
+                                        alt="Facebook logo"
+                                        class="social-link-icon"
+                                    />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/icon-twitter.svg"
+                                        alt="Twitter logo"
+                                        class="social-link-icon"
+                                    />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/icon-pinterest.svg"
+                                        alt="Pinterest logo"
+                                        class="social-link-icon"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button id="share" class="share-btn">
                         <img
                             src="./assets/images/icon-share.svg"
                             alt="Curved right arrow"
