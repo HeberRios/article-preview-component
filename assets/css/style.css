@@ -102,7 +102,101 @@ h6 {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem;
     font-family: var(--ff-regular);
+    background-color: var(--clr-light-grayish-blue);
+}
+
+/* ARTICLE COMPONENT STYLES */
+.article-component {
+    min-width: 20.4375rem;
+    max-width: 21.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    overflow: hidden;
+    border-radius: 0.65rem;
+    font-size: var(--fs-body);
+    background-color: white;
+}
+
+/* ARTICLE HEADER STYLES */
+.article-header {
+    max-height: 14rem;
+    overflow: hidden;
+}
+
+/* ARTICLE INTRODUCTION CONTAINER STYLES */
+.article-introduction-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1 {
+    color: var(--clr-very-dark-grayish-blue);
+    font-size: 1.0625rem;
+}
+
+.article-introduction-paragraph {
+    font-size: 14px;
+    color: var(--clr-desaturated-dark-blue);
+}
+
+.article-introduction-container,
+.article-author-container {
+    padding: 0 1.75rem;
+}
+
+/* ARTICLE AUTHOR CONTAINER */
+.article-author-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.25rem;
+}
+
+.author-image {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    border-radius: 50%;
+}
+
+.author-info-container {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-size: var(--fs-body);
+    color: var(--clr-very-dark-grayish-blue);
+}
+
+.article-date {
+    color: var(--clr-grayish-blue);
+}
+
+.share-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--clr-light-grayish-blue);
 }
 
 .attribution {
