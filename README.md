@@ -1,8 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Article preview component solution
 
-This is a solution to the [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
-
-## Table of contents
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
 
 -   [Overview](#overview)
     -   [The challenge](#the-challenge)
